@@ -1,0 +1,234 @@
+.banner{
+    display: flex;
+}
+.banner h2{
+    font-size:50px;
+
+}
+.banner_details{
+    margin-top: 148px;
+    margin-left: 200px;
+    justify-items: center;
+    text-align: center;
+}
+.nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      border-radius: 5px;
+      height: 50px;
+      border-bottom: 1px solid #ddd;
+      }
+
+.nav img {
+      margin:0 20px ;
+         }  
+         
+ .banner img{
+            height: 650px;
+            width: 900px;
+            clip-path: ellipse(100% 120% at 0 50%);
+         }
+
+.nav a {
+    height: 25px;
+    margin: 0 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #001F5F;
+    }
+.products-main{
+    margin: 70px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 222px;
+
+}
+.products-main a{
+    color: #001F5F;
+
+}
+.product_1{
+    padding: 20px;
+}
+.product_2{
+    padding: 20px;
+
+}
+.items{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    /* background-color: rgb(238, 238, 238); */
+    gap: 40px;
+    margin-right: 125px;
+}
+.items p{
+    text-align: center;
+  }
+
+  .item_1 img{
+    width: 310px;
+    height: 250px;
+  }
+
+  .item_2 img{
+    width: 310px;
+    height: 250px;
+  }
+
+  .container1{
+  display: flex;
+  gap: 278px;
+
+  }
+  .container1 p{
+    padding-left: 200px;
+  }
+  .container1 h2{
+    color: #001F5F;
+    font-size: 50px;
+    padding-left: 200px;
+  }
+
+
+  .container1 img{
+    padding-top: 150px;
+    padding-left: 200px;
+    width: 250px;
+    height: 220px;
+  }
+  .deodorant{
+    margin-top: 80px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+          }
+  .deodorant img{
+    /* border: 1px solid #001f5f;
+    background-color: rgb(238, 238, 238); */
+    width: 200px;
+    height: 250px;
+  }
+  button{
+     background-color: #001f5f;
+     color: white;
+     cursor: pointer;
+     display: inline-block;
+     font-size: 1.6rem;
+     font-style: normal;
+     font-weight:20%;
+     letter-spacing: .8px;
+    line-height: 1.2;
+     margin: 8px 0 0;
+     padding: 14px 30px;
+     text-align: center;
+           }
+    .product_button{
+          justify-content: center;
+          align-items: center;
+          display: flex;               
+         }
+    .Expert_solutions,.Expert_solutions_head{
+        margin-top: 50px;
+        justify-content: center;
+          align-items: center;
+          display: flex; 
+        
+    }
+    .Expert_solutions_img img{
+       width: 700px;
+    }
+    .Expert_solutions_details{
+         margin-left: 50px;
+    }
+
+    .tips_solutions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    
+    }
+    .tips_solutions img{
+        width: 325px;
+        height: 250px;
+    }
+    .tips_solutions_1,.tips_solutions_2,.tips_solutions_3{
+        padding: 40px;
+
+    }
+    a{
+        color :#fff;
+        text-decoration: none;
+    }
+    .quote {
+        background-color: #fff;
+        text-align: center; 
+        padding-top: 50px; 
+        padding-bottom: 50px;
+    }
+
+.quote-box {
+justify-items: center; 
+align-items: center; 
+background-color:#001F5F;
+color:#fff;
+width: 100%;
+height: 250px;
+border-radius: 0 0 50% 50%; 
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+    .quote-box h5 {
+        font-size: 25px;
+    }
+
+
+    .footer{
+      background-color: #fff;
+    }
+
+    .mini_footer{
+        display: flex;
+        margin-left: 20%;
+        margin-top: 5%;
+        gap: 100px;
+    }
+
+    .footer_1 li{
+        list-style: none;
+        margin-top: 10px;
+
+    }
+
+    .mini_footer_2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+ .follow_us{
+    margin-right:600px;
+
+ }
+
+
+
+ .footer_2{
+    margin-top: 10px;
+ }
+
+ .footer_2 img {
+    width: 30px;
+ }
+
+.rfoot{
+
+    margin-bottom: 100px;
+    padding-right: 100px;
+}

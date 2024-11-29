@@ -1,0 +1,82 @@
+.logo img {
+    height: 57px;
+    width: 113px;
+    margin: auto;
+    margin-top: 11px;
+}
+
+div.header {
+    box-sizing: border-box;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 0;
+    margin: 30px 0;
+    gap: 50px;
+}
+
+.header ul li {
+    position: relative;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.header ul li.drop::after {
+    content: "";
+    background-image: url('dropdown.png');
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    transition: transform 0.3s ease;
+}
+
+.drop:hover::after {
+    transform: rotate(180deg);
+}
+
+.product_sub {
+    margin-top: 10px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.header ul li:hover .product_sub {
+    display: block;
+}
+
+.product_sub .list {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.product_sub ul {
+    margin: 0;
+    padding: 0;
+}
+
+.product_sub ul h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product_sub ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}

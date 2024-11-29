@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.redirection{
+    background-color: rgb(8, 8, 114);
+    padding: 6px;
+   
+}
+
+.redirection a{
+    text-decoration: none;
+    color: white;
+    padding-left: 150px;
+
+}
+.search{
+    width: 16px;
+}
+
+.nav{
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+.nav img{
+   margin-right: 250px;
+}
+.nav a{
+    padding:25px;
+    text-decoration: none;
+    color: #001F5F;
+    font-weight:12px;
+    
+}
+.nav input{
+    border: none;
+    border-bottom:1px solid grey;
+}
+
+.banner{
+    clear: both;
+}
+
+.banner_img{
+    width: 50%;
+    float: left;
+}
+.banner img{
+    height: 532px;
+    width: 741px;
+    clip-path: ellipse(100% 120% at 0 50%);
+}
+
+
+.banner_details{
+    float: left;
+    width: 27%;
+    text-align: center;
+    padding-top: 137px;
+
+}
+.banner_details p{
+    margin: 0;
+}
+.banner_details h1{
+    font-size: 50px;
+    color: #001F5F;
+}
+.banner_details a{
+    text-decoration: none;
+    color:white;
+}
+button{
+    background-color: #001f5f;
+    text-decoration: none;
+    cursor: pointer;
+    /* margin: 8px 0 0; */
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.pagelist{
+    float: left;
+    max-width:  1000px;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 240);
+}
+.pagelist a{
+    text-decoration: none;
+
+}
+.pagelist a:hover{
+   text-decoration: underline;
+}
+.list_item_1{
+    float: left;
+    width: 33%;
+    /* padding-left: 276px; */
+
+}
+.list_item_2{
+    float: left;
+    width: 33%;
+    /* padding-left: 155px; */
+
+}
+.list_item_3{
+    float: left;
+    width: 33%;
+    /* padding-left: 155px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shampoo card */
+.shampoo_cards{
+    padding-top: 20px;
+    float: right;
+    padding-right: 252px;
+    font-size: small;
+}
+.shampoo_card_1{
+   float: left;
+   line-height: 10px;
+}
+.shampoo_card_2{
+    float: left;
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.shampoo_card_1 img{
+    background-color: rgb(240, 240, 240);
+    height: 247px;
+    width: 220px;
+    padding: 20px;
+
+}
+.shampoo_card_2 img{
+    /* margin-left: 10px; */
+    height: 247px;
+    width: 220px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.teaser{
+    float: left;
+    clear: both;
+    margin-left: 200px;
+}
+.teaser h2{
+    font-size: 37px;
+    color: #001F5F;
+}
+
+.conditioner_card{
+    float:right;
+    clear: both;
+    font-size: small;
+}
+.contioner_1{
+    margin-right: 520px;
+    clear: both;
+    line-height: 12px;
+}
+.contioner_1 img{
+    background-color: rgb(240, 240, 240);
+    height: 247px;
+    width: 220px;
+    padding: 20px;
+
+}
+
+
+/* our products */
+.our_products h2{
+text-align: center;  
+font-size: 37px;
+color: #001F5F;
+margin-left: 381px;
+}
+.our_products{
+    padding-top:58px ;
+    float: left;
+}
+.products{
+    margin-left: 375px;
+    font-size: small;
+}
+.product_1{
+  float: left;
+}
+.product_2{
+    float: left;
+    margin-left: 10px;
+}
+
+.product_3{
+    float: left;
+    margin-left: 10px; 
+}
+
+
+.product_1 img{
+    height: 247px;
+    width: 250px;
+    background-color: rgb(240, 240, 240);
+  
+}
+.product_2 img{
+    height: 247px;
+    width: 250px;
+    background-color: rgb(240, 240, 240);
+}
+
+.product_3 img{
+    height: 247px;
+    width: 250px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* carousel */
+.carousel{
+    /* clear: both; */
+    padding-top: 100px;
+    float: left;
+}
+.carousel h2{
+    font-size: 37px;
+    color: #001F5F;
+}
+.carousel p{
+    font-size: small;
+}
+.carousel_details{
+    padding-top: 100px;
+    padding-left: 310px;
+    float: left;
+}
+
+.carousel_card{
+    float: left;
+    padding-left: 32px;
+    line-height: 12px;
+    font-size: small;
+}
+.carousel_card img{
+    height: 247px;
+    width: 209px;
+}
+
+
+
+
+/* expert */
+.expert{
+float: left;
+    padding-top: 50px;
+}
+.expert h2{
+    text-align: center;
+    margin-left: 292px;
+    font-size: 37px;
+    color: #001F5F;
+}
+.expert_img{
+    float: left;
+    padding-left: 281px;
+   
+
+}
+
+.expert_img img{
+    width: 494px;
+    height: 258px;
+}
+
+.expert_details{
+    margin-left: 864px;
+    margin-top: 70px;
+    line-height: 12px;
+}
+
+
+
+/* TIPS */
+
+.tips{
+float: left;
+padding-left:281px;
+padding-top: 30px;
+font-size: small;
+}
+.tips_card_1{
+    float: left;
+
+}
+.tips_card_2{
+    float: left;
+    padding-left: 20px;
+
+    
+}
+.tips_card_3{
+    float: left;
+    padding-left: 20px;
+
+}
+
+
+.tips_card_1 img{
+    width: 290px;
+    height: 183px;
+}
+.tips_card_2 img{
+       width: 290px;
+    height: 183px;
+}
+.tips_card_3 img{
+    width: 307px;
+    height: 184px;
+}
+
+
+
+/* quote */
+.quote {
+    clear: both;
+    background-color: #fff;
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+.quote-box {
+background-color:#001F5F;
+color:#fff;
+width: 100%;
+height: 250px;
+border-radius: 0 0 50% 50%; 
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.quote-box h5 {
+    font-size: 25px;
+}
+
+/*  */
+
+.footer {
+
+}
+.footer_1 li{
+list-style: none;
+}
+.footer_1 a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+   .footer_1{
+    float: left;
+    margin-left: 400px;
+    margin-right: 40px;
+}
+  .footer_2 li{
+    list-style: none;
+    }
+   .footer_2 a{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+    }
+    .footer_2{
+     padding-top: 1px;
+
+    }
+
+    .follow{
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    
+.fb_logo{
+    height: 18px;
+    width: 19px;
+}
+.yt_logo{
+    margin-left: 5px;
+    height: 18px;
+    width: 19px;
+}
+.dove_logo{
+    height: 70px;
+}
+
+.unilever_logo{
+    height: 35px;
+}
+.copy_right{
+    font-size: small;
+}
